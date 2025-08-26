@@ -34,9 +34,12 @@ header {
 }
 
 .logo {
-  font-weight: 700;
-  font-size: 1.5em;
+  
+  font-size: 1,5em;
   letter-spacing: 2px;
+  display: flex;
+  width: 150px;
+overflow: scroll;
 }
 
 .nav-links {
@@ -59,21 +62,18 @@ header {
   height: 100vh;
   display: flex;
   justify-content: center;
-  align-items: center;
   text-align: center;
   background: url('assets/hero-bg.jpg') no-repeat center center/cover;
   color: #fff;
 }
 
-.hero-content h1 {
-  font-size: 3em;
-  font-weight: 700;
-  margin-bottom: 10px;
-}
 
 .hero-content p {
   font-size: 1.2em;
   color: #ddd;
+  display: flex;
+
+
 }
 
 /* Portfolio */
@@ -164,5 +164,10 @@ footer {
   text-align: center;
   color: #777;
   font-size: 0.9em;
+}
+
+.bar {
+  font-size: 40px;
+
 }
 
