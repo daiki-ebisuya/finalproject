@@ -2,7 +2,7 @@
 
 # Personal Portfolio -
 
-This is a personal portfolio website inspired by the visual style and color palette of 
+This is a personal portfolio website  
 
 ---
 
@@ -22,7 +22,7 @@ It’s designed to be a **one-page layout**, fully responsive, and minimal in co
 
 ---
 
-## 📌 Sections Included
+##  Sections Included
 
 - **Hero Section:** Introduction and visual header
 - **Profile/About Me:** Self-introduction and key info
@@ -32,22 +32,20 @@ It’s designed to be a **one-page layout**, fully responsive, and minimal in co
 
 ---
 
-## 👩‍💻 Built With
+##  Built With
 
 - **HTML5**
 - **CSS3** (Flexbox + Grid)
-- *(Optional: JavaScript for animation or interactivity)*
+
 
 ---
 
-## 🧑‍🎨 Creator
+##  Creator
 
-- **Name:** [Your Name]
-- **School/Class:** [Your School or Course Info]
-- **Email:** [your.email@example.com]
-- **Instagram or Website:** [optional link]
+- **Name:** [Daiki Ebisuya]
+- **School/Class:** [Tamwood Webdevelopment]
+- **Email:** [312816@student.tamwood.com]
 
----
 
-## 📂 Folder Structure
+
 
