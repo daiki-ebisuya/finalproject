@@ -38,7 +38,7 @@ header {
 
 .logo {
 
-  font-size: 1, 5em;
+  font-size: 1.5em;
   letter-spacing: 2px;
   display: flex;
   width: 150px;
@@ -65,7 +65,7 @@ header {
   /* ゴールド */
 }
 
-.to-myprofile a {
+.to-myprofile  {
   display: inline-block;
   font-weight: 300;
   transition: color 0.3s;
@@ -224,6 +224,13 @@ footer {
 .strength-text {
   margin-top: 20px;
   margin-bottom: 40px;
+  list-style: none;
+}
+
+.skill-text {
+  margin-top: 20px;
+  margin-bottom: 40px;
+  list-style: none;
 }
 
 .to-myprofile {
