@@ -133,9 +133,16 @@ header {
 
 /* Layout for image grid */
 .photo-grid {
-  display: flex;
-  gap: 15px;
-  flex-wrap: wrap;
+    display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: 300px;
+  gap: 20px;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  padding-bottom: 10px;
+
+ 
+
 }
 
 /* Style individual photo thumbnails */
