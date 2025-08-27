@@ -1,101 +1,96 @@
+/* ===== Reset styles for consistency across browsers ===== */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+/* Enable smooth scrolling for anchor links */
 html {
   scroll-behavior: smooth;
 }
 
+/* ===== Body styles ===== */
 body {
   font-family: 'Poppins', sans-serif;
   background-color: #0e0e0e;
   color: #f5f5f5;
   line-height: 1.6;
   margin: 0;
+
+  /* Set a background image with fixed position */
   background: url("./asset/img/beach.jpg") center / cover no-repeat fixed;
 }
 
+/* Remove underline from links and inherit color */
 a {
   color: inherit;
   text-decoration: none;
 }
 
+/* ===== Header styles ===== */
 header {
   background-color: #0e0e0e;
-  padding: 0px 40px;
+  padding: 20px 40px;
   position: sticky;
   top: 0;
-  z-index: 10;
+  z-index: 10; /* Keep header on top */
 }
 
+/* Navigation bar layout */
 .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
+/* Logo image style */
 .logo {
-
-  font-size: 1, 5em;
+  font-size: 1.5em;
   letter-spacing: 2px;
   display: flex;
   width: 150px;
   overflow: scroll;
 }
 
+/* Navigation links style */
 .nav-links {
   display: flex;
   gap: 30px;
   list-style: none;
 }
 
-.second-nav-links{
-  list-style: none;
-}
-
+/* Navigation link hover effect */
 .nav-links a {
   font-weight: 300;
   transition: color 0.3s;
 }
 
 .nav-links a:hover {
-  color: #d4af37;
-  /* ゴールド */
-}
-
-.to-myprofile a {
-  display: inline-block;
-  font-weight: 300;
-  transition: color 0.3s;
-}
-
-.to-myprofile:hover {
   color: #d4af37; /* Gold color on hover */
 }
 
-/* Hero Section */
+
+/* ===== Hero Section ===== */
 .hero {
   height: 100vh;
   display: flex;
   justify-content: center;
   text-align: center;
+
+  /* Background image for hero (optional fallback) */
   background: url('assets/hero-bg.jpg') no-repeat center center/cover;
   color: #fff;
 }
 
-
+/* Hero text styling */
 .hero-content p {
   font-size: 1.2em;
   color: #ddd;
   display: flex;
-
-
-
 }
 
-/* Portfolio */
+/* ===== Portfolio Section ===== */
 .portfolio {
   padding: 80px 40px;
   background-color: #111;
@@ -113,6 +108,7 @@ header {
   flex-wrap: wrap;
 }
 
+/* Individual portfolio cards */
 .card {
   flex: 1;
   min-width: 250px;
@@ -123,7 +119,7 @@ header {
   border-radius: 8px;
 }
 
-/* Photo Gallery */
+/* ===== Photo Gallery Section ===== */
 .photo {
   padding: 80px 40px;
   background-color: #0e0e0e;
@@ -135,12 +131,14 @@ header {
   color: #fefefe;
 }
 
+/* Layout for image grid */
 .photo-grid {
   display: flex;
   gap: 15px;
   flex-wrap: wrap;
 }
 
+/* Style individual photo thumbnails */
 .photo-grid img {
   width: 100%;
   max-width: 300px;
@@ -148,7 +146,7 @@ header {
   object-fit: cover;
 }
 
-/* Contact */
+/* ===== Contact Section ===== */
 .contact {
   padding: 80px 40px;
   background-color: #1a1a1a;
@@ -161,6 +159,7 @@ header {
   margin-bottom: 20px;
 }
 
+/* Email button */
 .contact-button {
   margin-top: 20px;
   display: inline-block;
@@ -176,7 +175,7 @@ header {
   background-color: #c39e32;
 }
 
-/* Footer */
+/* ===== Footer Section ===== */
 footer {
   padding: 30px;
   background-color: #000;
@@ -185,21 +184,15 @@ footer {
   font-size: 0.9em;
 }
 
-.bar {
-  font-size: 40px;
-
-}
-
+/* ===== Profile Section ("Me") ===== */
 .me {
-
   background: linear-gradient(rgba(0, 0, 0, 0.5)), #000;
   padding: 80px 40px;
   text-align: center;
   min-height: 500px;
-  scroll-margin-top: 130px;
-
 }
 
+/* Profile image */
 .portlait {
   float: right;
   width: 200px;
@@ -208,6 +201,7 @@ footer {
   border-radius: 50px;
 }
 
+/* Text beside the profile image */
 .portlait-text {
   text-align: left;
   margin-top: 50px;
@@ -216,16 +210,19 @@ footer {
   display: inline-block;
 }
 
+/* Spacer block */
 .space {
   display: block;
   padding: 40px;
 }
 
+/* Custom text style for 'Strength' and 'Skills' descriptions */
 .strength-text {
   margin-top: 20px;
   margin-bottom: 40px;
 }
 
-.to-myprofile {
+/* Title next to logo */
+.bar {
   font-size: 30px;
 }
