@@ -34,7 +34,8 @@ header {
   padding: 20px 40px;
   position: sticky;
   top: 0;
-  z-index: 10; /* Keep header on top */
+  z-index: 10;
+  /* Keep header on top */
 }
 
 /* Navigation bar layout */
@@ -67,7 +68,8 @@ header {
 }
 
 .nav-links a:hover {
-  color: #d4af37; /* Gold color on hover */
+  color: #d4af37;
+  /* Gold color on hover */
 }
 
 
@@ -99,7 +101,7 @@ header {
 .portfolio h2 {
   font-size: 2em;
   margin-bottom: 30px;
-  color: #d4af37;
+  color: #1a1810;
 }
 
 .portfolio-grid {
@@ -133,7 +135,7 @@ header {
 
 /* Layout for image grid */
 .photo-grid {
-    display: grid;
+  display: grid;
   grid-auto-flow: column;
   grid-auto-columns: 300px;
   gap: 20px;
@@ -141,7 +143,7 @@ header {
   scroll-snap-type: x mandatory;
   padding-bottom: 10px;
 
- 
+
 
 }
 
@@ -154,13 +156,13 @@ header {
 }
 
 /* ===== Contact Section ===== */
-.contact {
+.contact h2 {
   padding: 80px 40px;
   background-color: #1a1a1a;
   text-align: center;
 }
 
-.contact h2 {
+.contact  {
   color: #d4af37;
   font-size: 2em;
   margin-bottom: 20px;
@@ -235,8 +237,8 @@ footer {
 }
 
 h2 {
-  background-color: #d4af37;
-  font-style:italic;
+  background-color: #010101;
+  font-style: italic;
 }
 
 .nav-links a:active {
@@ -246,23 +248,44 @@ h2 {
 .nav-links a:focus {
   outline: 2px solid blue;
 }
+
 .photo-gallery {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: auto auto;      /* ← rowsを追加 */
-  grid-template-areas: 
+  grid-template-rows: auto auto;
+  /* ← rowsを追加 */
+  grid-template-areas:
     "photo1 photo2 photo3"
-    "photo4 photo5 photo6";           /* ← named grid area */
+    "photo4 photo5 photo6";
+  /* ← named grid area */
   gap: 10px;
-  justify-items: center;              /* ← other grid property */
+  justify-items: center;
+  /* ← other grid property */
 }
 
-.photo1 { grid-area: photo1; }
-.photo2 { grid-area: photo2; }
-.photo3 { grid-area: photo3; }
-.photo4 { grid-area: photo4; }
-.photo5 { grid-area: photo5; }
-.photo6 { grid-area: photo6; }
+.photo1 {
+  grid-area: photo1;
+}
+
+.photo2 {
+  grid-area: photo2;
+}
+
+.photo3 {
+  grid-area: photo3;
+}
+
+.photo4 {
+  grid-area: photo4;
+}
+
+.photo5 {
+  grid-area: photo5;
+}
+
+.photo6 {
+  grid-area: photo6;
+}
 
 .thankyou-section {
   padding: 60px 40px;
@@ -276,7 +299,7 @@ h2 {
   width: 200px;
   height: auto;
   margin-left: 60px;
-  
+
 
 }
 
@@ -286,4 +309,3 @@ h2 {
   font-size: 1.5em;
   padding-top: 20px;
 }
-
