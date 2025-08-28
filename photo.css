@@ -179,7 +179,7 @@ header {
 }
 
 .contact-button:hover {
-  background-color: #c39e32;
+  color: #d4af37;
 }
 
 /* ===== Footer Section ===== */
@@ -233,3 +233,57 @@ footer {
 .bar {
   font-size: 30px;
 }
+
+h2 {
+  background-color: #d4af37;
+  font-style:italic;
+}
+
+.nav-links a:active {
+  color: red;
+}
+
+.nav-links a:focus {
+  outline: 2px solid blue;
+}
+.photo-gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto auto;      /* ← rowsを追加 */
+  grid-template-areas: 
+    "photo1 photo2 photo3"
+    "photo4 photo5 photo6";           /* ← named grid area */
+  gap: 10px;
+  justify-items: center;              /* ← other grid property */
+}
+
+.photo1 { grid-area: photo1; }
+.photo2 { grid-area: photo2; }
+.photo3 { grid-area: photo3; }
+.photo4 { grid-area: photo4; }
+.photo5 { grid-area: photo5; }
+.photo6 { grid-area: photo6; }
+
+.thankyou-section {
+  padding: 60px 40px;
+  background-color: #111;
+  color: #fff;
+  min-height: 250px;
+}
+
+.thankyou-image {
+  float: left;
+  width: 200px;
+  height: auto;
+  margin-left: 60px;
+  
+
+}
+
+/*  clear: both */
+.thankyou-text {
+  clear: both;
+  font-size: 1.5em;
+  padding-top: 20px;
+}
+
